@@ -21,7 +21,7 @@ export default function SortDropdown({
       <div
         tabIndex={0}
         role="button"
-        className="btn btn-sm gap-2 border-base-300 bg-base-800 font-normal text-white/80 hover:bg-base-800"
+        className="btn btn-sm gap-2 border-base-300 bg-base-900 font-normal text-white/80 hover:bg-base-800"
       >
         Sort By: {options.find((o) => o.key === value)?.label}
         <ChevronDownIcon className="h-3.5 w-3.5" />
