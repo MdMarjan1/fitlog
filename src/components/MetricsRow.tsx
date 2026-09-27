@@ -13,6 +13,7 @@ export default function MetricsRow({
     { label: "Calories", value: calories },
   ];
 
+  
   return (
     <div className="grid grid-cols-3 gap-3 rounded-2xl bg-base-800 p-5">
       {stats.map((s) => (
